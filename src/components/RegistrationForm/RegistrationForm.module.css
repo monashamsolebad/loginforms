@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background-color: red; */
+}
+.formElementWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.submitFormButton {
+  width: 100%;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+  height: 44px;
+}
+.innerWrapper {
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 2px 25px 2px rgb(0 0 0 / 40%);
+}
+.formElement {
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+}
